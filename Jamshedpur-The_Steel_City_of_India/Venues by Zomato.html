@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_df99ebdccd204b2ca04d2cd6076900e0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_df99ebdccd204b2ca04d2cd6076900e0" ></div>
+        
+</body>
+<script>    
+    
+            var map_df99ebdccd204b2ca04d2cd6076900e0 = L.map(
+                "map_df99ebdccd204b2ca04d2cd6076900e0",
+                {
+                    center: [22.8015194, 86.2029579],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_12f4a1da8d4b41fd8f17873bd808fb5f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+            var circle_marker_9957be0b9aa142a6a6f382c4702b6727 = L.circleMarker(
+                [22.806213, 86.191547],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_e9febe3aaaba4b70b51e660536753879 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8edfe8916734bbaa8deed6345b4d955 = $(`<div id="html_e8edfe8916734bbaa8deed6345b4d955" style="width: 100.0%; height: 100.0%;">Wave International, Near Modi Park, Kinnan Stadium, Bistupur, Jamshedpur</div>`)[0];
+            popup_e9febe3aaaba4b70b51e660536753879.setContent(html_e8edfe8916734bbaa8deed6345b4d955);
+        
+
+        circle_marker_9957be0b9aa142a6a6f382c4702b6727.bindPopup(popup_e9febe3aaaba4b70b51e660536753879)
+        ;
+
+        
+    
+    
+            var circle_marker_2ff603a9b4e54351ace920fee6d60781 = L.circleMarker(
+                [22.7978379314, 86.184335053],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_3e0d6088dab14009aec75842b6dd4b84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72cbf97405da4b518a043aa2ce6248a9 = $(`<div id="html_72cbf97405da4b518a043aa2ce6248a9" style="width: 100.0%; height: 100.0%;">Wave International, Dcosta Mansion, Main Road, Bistupur, Jamshedpur</div>`)[0];
+            popup_3e0d6088dab14009aec75842b6dd4b84.setContent(html_72cbf97405da4b518a043aa2ce6248a9);
+        
+
+        circle_marker_2ff603a9b4e54351ace920fee6d60781.bindPopup(popup_3e0d6088dab14009aec75842b6dd4b84)
+        ;
+
+        
+    
+    
+            var circle_marker_32e7a7fde268475fa250de88f020705a = L.circleMarker(
+                [22.7941928597, 86.1761412397],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_43e7086c79dd4feea83453c40e0aecad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_681419b5fcfb4d03824194a8a990b7f5 = $(`<div id="html_681419b5fcfb4d03824194a8a990b7f5" style="width: 100.0%; height: 100.0%;">Wave International, Hotel Ramada, Holding 3, Bistupur</div>`)[0];
+            popup_43e7086c79dd4feea83453c40e0aecad.setContent(html_681419b5fcfb4d03824194a8a990b7f5);
+        
+
+        circle_marker_32e7a7fde268475fa250de88f020705a.bindPopup(popup_43e7086c79dd4feea83453c40e0aecad)
+        ;
+
+        
+    
+    
+            var circle_marker_9e62f3ea599347d8847c1b199a8cdc5d = L.circleMarker(
+                [22.7986103292, 86.1804790422],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_8e8529275b324dd2a0ae065e56a977ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afe8724a578248e89999ea6edf5691e5 = $(`<div id="html_afe8724a578248e89999ea6edf5691e5" style="width: 100.0%; height: 100.0%;">Wave International, Janki Apartments, Inner Cir Rd, Contractors Area, Bistupur, Jamshedpur</div>`)[0];
+            popup_8e8529275b324dd2a0ae065e56a977ce.setContent(html_afe8724a578248e89999ea6edf5691e5);
+        
+
+        circle_marker_9e62f3ea599347d8847c1b199a8cdc5d.bindPopup(popup_8e8529275b324dd2a0ae065e56a977ce)
+        ;
+
+        
+    
+    
+            var circle_marker_36ee3cd95a9f4d259a5692cb5cc5c32d = L.circleMarker(
+                [22.7976289907, 86.1842904612],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_1af5cdb9f4764f058958ddfa7dd871ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fd119fb69c64b6ca98b697aff3f0e7a = $(`<div id="html_8fd119fb69c64b6ca98b697aff3f0e7a" style="width: 100.0%; height: 100.0%;">Wave International, D&#39;costa Mansion, 669 Main Road, Bistupur, Jamshedpur</div>`)[0];
+            popup_1af5cdb9f4764f058958ddfa7dd871ae.setContent(html_8fd119fb69c64b6ca98b697aff3f0e7a);
+        
+
+        circle_marker_36ee3cd95a9f4d259a5692cb5cc5c32d.bindPopup(popup_1af5cdb9f4764f058958ddfa7dd871ae)
+        ;
+
+        
+    
+    
+            var circle_marker_4d625b4131e9430c8a929fff6c86b8ce = L.circleMarker(
+                [22.79139, 86.18056],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_f16129b768534074967309f0fda5b9be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_910858da9b1d44cbb5256f5d05529c21 = $(`<div id="html_910858da9b1d44cbb5256f5d05529c21" style="width: 100.0%; height: 100.0%;">Wave International, Roshan Tower, Beside Sachdev Cycle Mart, Bistupur Main Road, Bistupur, Jamshedpur</div>`)[0];
+            popup_f16129b768534074967309f0fda5b9be.setContent(html_910858da9b1d44cbb5256f5d05529c21);
+        
+
+        circle_marker_4d625b4131e9430c8a929fff6c86b8ce.bindPopup(popup_f16129b768534074967309f0fda5b9be)
+        ;
+
+        
+    
+    
+            var circle_marker_27642c17fce14d159c5ec42f4ffbdc81 = L.circleMarker(
+                [22.7984761876, 86.1797246709],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_765d9e56fcd34de7b39771d9696c7754 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1072125118274726b6cb789b6ff8c86f = $(`<div id="html_1072125118274726b6cb789b6ff8c86f" style="width: 100.0%; height: 100.0%;">Wave International, Contractors Area, Near The Sonnet Hotel, Bistupur, Jamshedpur</div>`)[0];
+            popup_765d9e56fcd34de7b39771d9696c7754.setContent(html_1072125118274726b6cb789b6ff8c86f);
+        
+
+        circle_marker_27642c17fce14d159c5ec42f4ffbdc81.bindPopup(popup_765d9e56fcd34de7b39771d9696c7754)
+        ;
+
+        
+    
+    
+            var circle_marker_1f649eb37c034de8a702c59261660b59 = L.circleMarker(
+                [22.7981689596, 86.1796589568],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_844aac3923754fe984bc662a0b5f7281 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2d0f7a35f5a4b698ac647ef30d97d02 = $(`<div id="html_d2d0f7a35f5a4b698ac647ef30d97d02" style="width: 100.0%; height: 100.0%;">Wave International, Contractors Area, Near The Sonnet Hotel, Bistupur, Jamshedpur</div>`)[0];
+            popup_844aac3923754fe984bc662a0b5f7281.setContent(html_d2d0f7a35f5a4b698ac647ef30d97d02);
+        
+
+        circle_marker_1f649eb37c034de8a702c59261660b59.bindPopup(popup_844aac3923754fe984bc662a0b5f7281)
+        ;
+
+        
+    
+    
+            var circle_marker_954b8d2fcef14ad48b2c10359e0d9bc9 = L.circleMarker(
+                [22.84315, 86.213249],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_1880556e1a044944b6ca195deb9b0a76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d5ba82e1669412cbc4176f94583a685 = $(`<div id="html_9d5ba82e1669412cbc4176f94583a685" style="width: 100.0%; height: 100.0%;">Wave International, Gama - C/721 Sahara City, Road No- 15 Mango, Near B.S.N.L Telephone Exchange</div>`)[0];
+            popup_1880556e1a044944b6ca195deb9b0a76.setContent(html_9d5ba82e1669412cbc4176f94583a685);
+        
+
+        circle_marker_954b8d2fcef14ad48b2c10359e0d9bc9.bindPopup(popup_1880556e1a044944b6ca195deb9b0a76)
+        ;
+
+        
+    
+    
+            var circle_marker_49431afeb38f4355907e4f214b40376b = L.circleMarker(
+                [22.7950669687, 86.1839320511],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_d2bcf95d274a4086a0f929bb96fb0996 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7921f62688d840779c97b2564be417b3 = $(`<div id="html_7921f62688d840779c97b2564be417b3" style="width: 100.0%; height: 100.0%;">Wave International, Natraj Mansion Main Road Bistupur</div>`)[0];
+            popup_d2bcf95d274a4086a0f929bb96fb0996.setContent(html_7921f62688d840779c97b2564be417b3);
+        
+
+        circle_marker_49431afeb38f4355907e4f214b40376b.bindPopup(popup_d2bcf95d274a4086a0f929bb96fb0996)
+        ;
+
+        
+    
+    
+            var circle_marker_47938cfa94f54b6286692098e6597bf1 = L.circleMarker(
+                [22.7984687696, 86.1797806621],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_1e46f5943513472fb2db0b19aa1d5741 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd7c81644e594063bc7be251553e4eec = $(`<div id="html_cd7c81644e594063bc7be251553e4eec" style="width: 100.0%; height: 100.0%;">Wave International, Contractors Area Rd 2, Contractors Area, Bistupur, Jamshedpur</div>`)[0];
+            popup_1e46f5943513472fb2db0b19aa1d5741.setContent(html_cd7c81644e594063bc7be251553e4eec);
+        
+
+        circle_marker_47938cfa94f54b6286692098e6597bf1.bindPopup(popup_1e46f5943513472fb2db0b19aa1d5741)
+        ;
+
+        
+    
+    
+            var circle_marker_a61fb8c4ac9f46fba437bc00a2d25edd = L.circleMarker(
+                [22.7721528284, 86.2392120436],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_ce916e6102774201afd1ed670c1053db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3dd6b4b7d74418da2db8c069d8bb99e = $(`<div id="html_e3dd6b4b7d74418da2db8c069d8bb99e" style="width: 100.0%; height: 100.0%;">Wave International, Shop No. 81, B Azad Market, Telco</div>`)[0];
+            popup_ce916e6102774201afd1ed670c1053db.setContent(html_e3dd6b4b7d74418da2db8c069d8bb99e);
+        
+
+        circle_marker_a61fb8c4ac9f46fba437bc00a2d25edd.bindPopup(popup_ce916e6102774201afd1ed670c1053db)
+        ;
+
+        
+    
+    
+            var circle_marker_8aa4d77256044734842e108430ccde74 = L.circleMarker(
+                [22.798776, 86.179546],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_caf22493ca7e47f8bf866cc6f29458c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8cb3c679a8d447a9968da6c3bce0c12 = $(`<div id="html_b8cb3c679a8d447a9968da6c3bce0c12" style="width: 100.0%; height: 100.0%;">Wave International, Inner Circle Road, Contractors Area, Bistupur, P.O. &amp; P.S. Bistupur, Jamshedpur</div>`)[0];
+            popup_caf22493ca7e47f8bf866cc6f29458c0.setContent(html_b8cb3c679a8d447a9968da6c3bce0c12);
+        
+
+        circle_marker_8aa4d77256044734842e108430ccde74.bindPopup(popup_caf22493ca7e47f8bf866cc6f29458c0)
+        ;
+
+        
+    
+    
+            var circle_marker_e8af17f3bc544e79931ef6afeb64d1de = L.circleMarker(
+                [22.840885, 86.229864],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_df99ebdccd204b2ca04d2cd6076900e0);
+        
+    
+        var popup_ed808192c0ba48f1b519a5cb9665afd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e8f3a5e93574cd79e3f8778af73712e = $(`<div id="html_3e8f3a5e93574cd79e3f8778af73712e" style="width: 100.0%; height: 100.0%;">Wave International, Road 1, Hill View Colony, Opposite Ashiyana EnclaveC/O Hotel L N International, Hill View Colony, Road 3, Dimna Road, Mango, Jamshedpur</div>`)[0];
+            popup_ed808192c0ba48f1b519a5cb9665afd7.setContent(html_3e8f3a5e93574cd79e3f8778af73712e);
+        
+
+        circle_marker_e8af17f3bc544e79931ef6afeb64d1de.bindPopup(popup_ed808192c0ba48f1b519a5cb9665afd7)
+        ;
+
+        
+    
+</script>

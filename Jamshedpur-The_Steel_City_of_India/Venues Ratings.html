@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f81597011f794fca906f85c5c2a14bf6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f81597011f794fca906f85c5c2a14bf6" ></div>
+        
+</body>
+<script>    
+    
+            var map_f81597011f794fca906f85c5c2a14bf6 = L.map(
+                "map_f81597011f794fca906f85c5c2a14bf6",
+                {
+                    center: [22.8015194, 86.2029579],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1baa4205a6a644298a029353f02280a1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f81597011f794fca906f85c5c2a14bf6);
+        
+    
+            var marker_9f18c61b68d9493ea18c11dba2b31ef5 = L.marker(
+                [22.7978, 86.1843],
+                {}
+            ).addTo(map_f81597011f794fca906f85c5c2a14bf6);
+        
+    
+            var icon_fc187536484a45debd6ef81d15b14177 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_9f18c61b68d9493ea18c11dba2b31ef5.setIcon(icon_fc187536484a45debd6ef81d15b14177);
+        
+    
+        var popup_5798c6fdb187436484491e9f4d218953 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60f2d17d5041404c8fd7974d978bd164 = $(`<div id="html_60f2d17d5041404c8fd7974d978bd164" style="width: 100.0%; height: 100.0%;">Brubeck Bakery, Dcosta Mansion, Main Road, Bistupur, Jamshedpur</div>`)[0];
+            popup_5798c6fdb187436484491e9f4d218953.setContent(html_60f2d17d5041404c8fd7974d978bd164);
+        
+
+        marker_9f18c61b68d9493ea18c11dba2b31ef5.bindPopup(popup_5798c6fdb187436484491e9f4d218953)
+        ;
+
+        
+    
+    
+            var marker_7298b219791748bfb2902d8dbf2fc23a = L.marker(
+                [22.7942, 86.1761],
+                {}
+            ).addTo(map_f81597011f794fca906f85c5c2a14bf6);
+        
+    
+            var icon_ae46258c383c4fa39e618117ca16ce30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7298b219791748bfb2902d8dbf2fc23a.setIcon(icon_ae46258c383c4fa39e618117ca16ce30);
+        
+    
+        var popup_2053cc25a82d49e99309099766ddfa81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30e20dd5cc244c2f9449d5a573ab66d7 = $(`<div id="html_30e20dd5cc244c2f9449d5a573ab66d7" style="width: 100.0%; height: 100.0%;">Jampot, Hotel Ramada, Holding 3, Bistupur</div>`)[0];
+            popup_2053cc25a82d49e99309099766ddfa81.setContent(html_30e20dd5cc244c2f9449d5a573ab66d7);
+        
+
+        marker_7298b219791748bfb2902d8dbf2fc23a.bindPopup(popup_2053cc25a82d49e99309099766ddfa81)
+        ;
+
+        
+    
+    
+            var marker_03279a3b5e2d4751b5ddde15d442b5cb = L.marker(
+                [22.7976, 86.1843],
+                {}
+            ).addTo(map_f81597011f794fca906f85c5c2a14bf6);
+        
+    
+            var icon_337df850ca0c4139bd141c733676ab88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_03279a3b5e2d4751b5ddde15d442b5cb.setIcon(icon_337df850ca0c4139bd141c733676ab88);
+        
+    
+        var popup_19a4ee55e61c4d4b9e656cbd4c822ddb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf4d14df15b2446ebc8b2d533f1288b0 = $(`<div id="html_bf4d14df15b2446ebc8b2d533f1288b0" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, D&#39;costa Mansion, 669 Main Road, Bistupur, Jamshedpur</div>`)[0];
+            popup_19a4ee55e61c4d4b9e656cbd4c822ddb.setContent(html_bf4d14df15b2446ebc8b2d533f1288b0);
+        
+
+        marker_03279a3b5e2d4751b5ddde15d442b5cb.bindPopup(popup_19a4ee55e61c4d4b9e656cbd4c822ddb)
+        ;
+
+        
+    
+    
+            var marker_594d9ec41c0b407d88553472a7038d29 = L.marker(
+                [22.7914, 86.1806],
+                {}
+            ).addTo(map_f81597011f794fca906f85c5c2a14bf6);
+        
+    
+            var icon_5268c8e92edf4d24b799ed0a29ae1738 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_594d9ec41c0b407d88553472a7038d29.setIcon(icon_5268c8e92edf4d24b799ed0a29ae1738);
+        
+    
+        var popup_220af2fc02fc4a95855dc972d19ef06c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c7ce6819905482a849ee946bef5a269 = $(`<div id="html_5c7ce6819905482a849ee946bef5a269" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, Roshan Tower, Beside Sachdev Cycle Mart, Bistupur Main Road, Bistupur, Jamshedpur</div>`)[0];
+            popup_220af2fc02fc4a95855dc972d19ef06c.setContent(html_5c7ce6819905482a849ee946bef5a269);
+        
+
+        marker_594d9ec41c0b407d88553472a7038d29.bindPopup(popup_220af2fc02fc4a95855dc972d19ef06c)
+        ;
+
+        
+    
+    
+            var marker_09d6efb99254455ea4f72522f3e96882 = L.marker(
+                [22.7985, 86.1797],
+                {}
+            ).addTo(map_f81597011f794fca906f85c5c2a14bf6);
+        
+    
+            var icon_2396ea6efad945ed830f2dc729dcc336 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_09d6efb99254455ea4f72522f3e96882.setIcon(icon_2396ea6efad945ed830f2dc729dcc336);
+        
+    
+        var popup_b110e9079b834d21ac9051ef3fa0ae7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a1d895f6ca74cbe9005398c25c29a0b = $(`<div id="html_3a1d895f6ca74cbe9005398c25c29a0b" style="width: 100.0%; height: 100.0%;">The Chocolate Room, Contractors Area, Near The Sonnet Hotel, Bistupur, Jamshedpur</div>`)[0];
+            popup_b110e9079b834d21ac9051ef3fa0ae7b.setContent(html_3a1d895f6ca74cbe9005398c25c29a0b);
+        
+
+        marker_09d6efb99254455ea4f72522f3e96882.bindPopup(popup_b110e9079b834d21ac9051ef3fa0ae7b)
+        ;
+
+        
+    
+    
+            var marker_5c60a58674e449a5a408b8c35dcbecf6 = L.marker(
+                [22.7982, 86.1797],
+                {}
+            ).addTo(map_f81597011f794fca906f85c5c2a14bf6);
+        
+    
+            var icon_bcc0cb14733d48b2a3fe71abb5571976 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5c60a58674e449a5a408b8c35dcbecf6.setIcon(icon_bcc0cb14733d48b2a3fe71abb5571976);
+        
+    
+        var popup_a57d6ce588d2423b956121f63b15330e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc2979641635482e8d43067c0cff850d = $(`<div id="html_dc2979641635482e8d43067c0cff850d" style="width: 100.0%; height: 100.0%;">Dosa King, Contractors Area, Near The Sonnet Hotel, Bistupur, Jamshedpur</div>`)[0];
+            popup_a57d6ce588d2423b956121f63b15330e.setContent(html_dc2979641635482e8d43067c0cff850d);
+        
+
+        marker_5c60a58674e449a5a408b8c35dcbecf6.bindPopup(popup_a57d6ce588d2423b956121f63b15330e)
+        ;
+
+        
+    
+    
+            var marker_a886d9035f71483eb0f2cb847a8ab74a = L.marker(
+                [22.7951, 86.1839],
+                {}
+            ).addTo(map_f81597011f794fca906f85c5c2a14bf6);
+        
+    
+            var icon_d00ed8ed655f489f875c7413416f3be3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a886d9035f71483eb0f2cb847a8ab74a.setIcon(icon_d00ed8ed655f489f875c7413416f3be3);
+        
+    
+        var popup_0ebe41682c234496b898fbfb92eda8de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5badd8392414fffa1e8149bded37116 = $(`<div id="html_a5badd8392414fffa1e8149bded37116" style="width: 100.0%; height: 100.0%;">Spice Zone, Natraj Mansion Main Road Bistupur</div>`)[0];
+            popup_0ebe41682c234496b898fbfb92eda8de.setContent(html_a5badd8392414fffa1e8149bded37116);
+        
+
+        marker_a886d9035f71483eb0f2cb847a8ab74a.bindPopup(popup_0ebe41682c234496b898fbfb92eda8de)
+        ;
+
+        
+    
+    
+            var marker_fb12bf679acf4b559367f02822583157 = L.marker(
+                [22.7988, 86.1795],
+                {}
+            ).addTo(map_f81597011f794fca906f85c5c2a14bf6);
+        
+    
+            var icon_f9f63b6ad465407b88b000cfc1aefa71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fb12bf679acf4b559367f02822583157.setIcon(icon_f9f63b6ad465407b88b000cfc1aefa71);
+        
+    
+        var popup_808b9a5b88884eacba6f5d223a1c2341 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab2d15ed71604983a5964bc86ccc9586 = $(`<div id="html_ab2d15ed71604983a5964bc86ccc9586" style="width: 100.0%; height: 100.0%;">Sugar Works, Inner Circle Road, Contractors Area, Bistupur, P.O. &amp; P.S. Bistupur, Jamshedpur</div>`)[0];
+            popup_808b9a5b88884eacba6f5d223a1c2341.setContent(html_ab2d15ed71604983a5964bc86ccc9586);
+        
+
+        marker_fb12bf679acf4b559367f02822583157.bindPopup(popup_808b9a5b88884eacba6f5d223a1c2341)
+        ;
+
+        
+    
+</script>
